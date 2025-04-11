@@ -23,4 +23,5 @@ Current workflow:
 [in progress]
 
 *** Note on run_moana_cryocloud:
-To process in batch, you must define a smaller lat/lon box of interest. Instead of 50 minutes, images will take about 1 minute or so. Currently, there is a bug (I think?) so that N/S/E/W bounds cannot be defined when running SeaDAS through CryoCloud. Not sure why. So, you must run SeaDAS on your local computer to get MOANA phyto assemblages. Please see my repo, run_moana_seadas, in order to set up moana on your local drive. If it is not on Github yet, please email slang@uri.edu and I can help you. -Slang
+To process in batch, you must define a smaller lat/lon box of interest. Instead of 50 minutes, images will take about 1 minute or so. Currently, there is a bug (I think?) so that N/S/E/W bounds cannot be defined when running SeaDAS through CryoCloud. Not sure why. So, you must run SeaDAS on your local computer to get MOANA phyto assemblages. Please see my repo, run_moana_seadas, in order to set up moana on your local drive. If it is not on Github yet, please email slang@uri.edu and I can help you. 
+-Slang
