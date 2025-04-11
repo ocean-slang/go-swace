@@ -1,6 +1,7 @@
 Ongoing work to explore eddy dynamics using SWOT, PACE, and Argo.
 
-Preliminary work. We are currently running this workflow on NASA-supported Cryocloud: https://book.cryointhecloud.com/intro.html
+Preliminary work. We are currently running this workflow on Cryocloud (NASA-supported): https://book.cryointhecloud.com/intro.html
+
 We recommend that you do as well.
 
 Current workflow:
