@@ -6,16 +6,18 @@ We recommend that you do as well.
 Current workflow:
 - In each script, there may be data that needs to be manually downloaded and saved in the appropriate corresponding data folder. Each script will have directions on the top about ancillary datasets needed, or parameters to change in the script.
 
-Satellite visualizations
-1. SWOT_velocities_maps: Plot SWOT data, calculate geostrophic velocities, and compare to coarse geostrophic velocities from OSCAR and sea level anomaly from CMEMS.
-2. run_moana_cryocloud: Process one image in SeaDAS to get phytoplankton assemblages (prochlorococcus, picoeukaryotes, synechococcus) from PACE Level 1B imagery using the MOANA algorithm (https://www.earthdata.nasa.gov/apt/documents/moana/v1.0). Please see important note below.
-3. SWOT_over_PACE_maps: Plot PACE chl-a and phytoplankton assemblages (generated from run_moana_cryocloud or on local machine) with SWOT streamlines overlain.
-4. vort_strain_jpdfs: Plot PACE chl-a and phytoplankton assemblage ratios in vorticity-strain space. Please interpret with care... SWOT velocities are preliminary, vorticity and strain are two levels of separation away from SLA...
+**Satellite visualizations**
+1. *SWOT_velocities_maps*: Plot SWOT data, calculate geostrophic velocities, and compare to coarse geostrophic velocities from OSCAR and sea level anomaly from CMEMS.
+2. *run_moana_cryocloud*: Process one image in SeaDAS to get phytoplankton assemblages (prochlorococcus, picoeukaryotes, synechococcus) from PACE Level 1B imagery using the MOANA algorithm (https://www.earthdata.nasa.gov/apt/documents/moana/v1.0). Please see important note below.
+3. *SWOT_over_PACE_maps*: Plot PACE chl-a and phytoplankton assemblages (generated from run_moana_cryocloud or on local machine) with SWOT streamlines overlain.
+4. *vort_strain_jpdfs*: Plot PACE chl-a and phytoplankton assemblage ratios in vorticity-strain space. Please interpret with care... SWOT velocities are preliminary, vorticity and strain are two levels of separation away from SLA...
 
-Times series
+**Times series**
+
 [in progress]
 
-Argo
+**Argo**
+
 [in progress]
 
 *** Note on run_moana_cryocloud:
