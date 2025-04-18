@@ -17,7 +17,7 @@ Current workflow:
 *SWOT and PACE*
 5. *SWOT_over_PACE_maps*: Plot PACE chl-a and phytoplankton assemblages (generated from run_moana_cryocloud or on local machine) with SWOT streamlines overlain.
 6. *vort_strain_jpdfs*: Plot PACE chl-a and phytoplankton assemblage ratios in vorticity-strain space. Please interpret with care... SWOT velocities are preliminary, vorticity and strain are two levels of separation away from SLA...
-
+   
 **Times series**
 
 [in progress]
@@ -26,6 +26,13 @@ Current workflow:
 
 [in progress]
 
+<img width="776" alt="Screenshot 2025-04-18 at 1 17 34 PM" src="https://github.com/user-attachments/assets/a88cbb32-ea2c-4134-9d80-206ac7e31228" />
+*Phytoplankton evolve over the course of this Gulf Stream eddy's life. The eddy is also associated with rich submesoscale structure, especially evident in the April 14th image which showcases submesoscale eddies peeling off the Gulf Stream ring.*
+
 *** Note on run_moana_cryocloud:
 To process in batch, you must define a smaller lat/lon box of interest. Instead of 50 minutes, images will take about 1 minute or so. Currently, there is a bug (I think?) so that N/S/E/W bounds cannot be defined when running SeaDAS through CryoCloud. Not sure why. So, you must run SeaDAS on your local computer to get MOANA phyto assemblages. Please see my repo, run_moana_seadas, in order to set up moana on your local drive. If it is not on Github yet, please email slang@uri.edu and I can help you. 
 -Slang
+
+<img width="800" alt="Screenshot 2025-04-18 at 1 19 16 PM" src="https://github.com/user-attachments/assets/ec87b36a-baad-4e50-a8f4-d1d37cf8237b" />
+*May 8, 2024 PACE image with SWOT geostrophic velocity contours overlain.*
+
