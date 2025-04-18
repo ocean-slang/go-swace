@@ -41,5 +41,5 @@ To process in batch, you must define a smaller lat/lon box of interest. Instead 
 
 <img width="779" alt="Screenshot 2025-04-18 at 1 24 24 PM" src="https://github.com/user-attachments/assets/8603d49d-6179-40f6-aae8-dc8fd81367de" />
 
-*May 8, 2024 PACE image with SWOT geostrophic velocity contours overlain.*
+*May 8, 2024 PACE phytoplankton ratios (from MOANA algorithm) with SWOT geostrophic velocity contours overlain.*
 
