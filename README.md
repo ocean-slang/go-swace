@@ -18,7 +18,9 @@ Current workflow:
 
 3. *run_moana_cryocloud*: Process one image in SeaDAS to get phytoplankton assemblages (prochlorococcus, picoeukaryotes, synechococcus) from PACE Level 1B imagery using the MOANA algorithm (https://www.earthdata.nasa.gov/apt/documents/moana/v1.0). Please see important note below.
 4. *box_plots_PACE* Looking at distributions of variables chl-a, pico, pro, and syn inside vs. outside eddy. Caveat: 'Outside' eddy area needs to be further refined.
+   
 *SWOT and PACE*
+
 5. *SWOT_over_PACE_maps*: Plot PACE chl-a and phytoplankton assemblages (generated from run_moana_cryocloud or on local machine) with SWOT streamlines overlain.
 6. *vort_strain_jpdfs*: Plot PACE chl-a and phytoplankton assemblage ratios in vorticity-strain space. Please interpret with care... SWOT velocities are preliminary, vorticity and strain are two levels of separation away from SLA...
    
