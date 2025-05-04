@@ -29,7 +29,9 @@ Current workflow:
    
 **Times series**
 
-[in progress]
+1. *generate_PACE_time_series_data.ipynb*: Generate data of mean + standard deviations for PACE variables within the eddy. Generate data for time series plots, plotted in next script. Variables of interest include chl-a, POC, prochlorococcus, picoeukaryotes, and 
+synechococcus changes within the eddy defined by AVISO contour bounds.
+2. *plot_PACE_time_series.ipynb*: Plot time series. Means and error bars are standard deviations on time series plots. Data generated from code listed above.
 
 **Argo**
 
