@@ -13,16 +13,18 @@ Current workflow:
 
 1. *SWOT_velocities_maps*: Plot SWOT data, calculate geostrophic velocities, and compare to coarse geostrophic velocities from OSCAR and sea level anomaly from CMEMS.
 2. *eddy_track_visualizations*: Plot time series of eddy amplitude and area from AVISO eddy trajectories. Plot eddy trajectory over its lifespan. Select some SWOT overpasses to plot at different points of the eddy's life.
-
+3. *plot_all_SWOT_dates*: Plot all SWOT images (SLA + quick velocities overlain) for all dates of SWOT overpass over the eddy. Generate animation from pngs.
+   
 *PACE*
 
-3. *run_moana_cryocloud*: Process one image in SeaDAS to get phytoplankton assemblages (prochlorococcus, picoeukaryotes, synechococcus) from PACE Level 1B imagery using the MOANA algorithm (https://www.earthdata.nasa.gov/apt/documents/moana/v1.0). Please see important note below.
-4. *box_plots_PACE* Looking at distributions of variables chl-a, pico, pro, and syn inside vs. outside eddy. Caveat: 'Outside' eddy area needs to be further refined.
-   
+1. *run_moana_cryocloud*: Process one image in SeaDAS to get phytoplankton assemblages (prochlorococcus, picoeukaryotes, synechococcus) from PACE Level 1B imagery using the MOANA algorithm (https://www.earthdata.nasa.gov/apt/documents/moana/v1.0). Please see important note below.
+2. *box_plots_PACE* Looking at distributions of variables chl-a, pico, pro, and syn inside vs. outside eddy. Caveat: 'Outside' eddy area needs to be further refined.
+3. *plot_all_SWOT_dates*: Plot all PACE images (chl-a) for all dates of SWOT overpass over the eddy. Generate animation from pngs.
+4. 
 *SWOT and PACE*
 
-5. *SWOT_over_PACE_maps*: Plot PACE chl-a and phytoplankton assemblages (generated from run_moana_cryocloud or on local machine) with SWOT streamlines overlain.
-6. *compute_vorticity_strain*: Plot PACE chl-a and phytoplankton assemblage ratios in vorticity-strain space. Please interpret with care... SWOT velocities are preliminary, vorticity and strain are two levels of separation away from SLA...
+1. *SWOT_over_PACE_maps*: Plot PACE chl-a and phytoplankton assemblages (generated from run_moana_cryocloud or on local machine) with SWOT streamlines overlain.
+2. *compute_vorticity_strain*: Plot PACE chl-a and phytoplankton assemblage ratios in vorticity-strain space. Please interpret with care... SWOT velocities are preliminary, vorticity and strain are two levels of separation away from SLA...
    
 **Times series**
 
