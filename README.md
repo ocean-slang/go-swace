@@ -35,7 +35,12 @@ synechococcus changes within the eddy defined by AVISO contour bounds.
 
 **Argo**
 
-[in progress]
+1. *colocate_Argo_AVISO.py*: Co-locate Argo floats and Gulf Stream eddies. The script takes the locations of Argo floats and mesoscale eddy boundaries from AVISO (currently version nrt_3.2), and outputs a CSV of the floats within an eddy.
+
+**Spatial Clustering**
+
+1. *gulf_stream_satellite_clim.ipynb*: Process CHLA and SLA satellite data from 2000-2020, calculates monthly averages, crops to the Gulf Stream region, interpolates them to the same 1/4 degree grids, and saves the data as an xarray dataset.
+2. *clustering_gulf_stream_clim.ipynb*: Using monthly avg chl, ADT (and temp) to get spatial clusters of the region with k-means.
 
 <img width="776" alt="Screenshot 2025-04-18 at 1 17 34 PM" src="https://github.com/user-attachments/assets/a88cbb32-ea2c-4134-9d80-206ac7e31228" />
 
