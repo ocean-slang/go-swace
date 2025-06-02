@@ -25,7 +25,10 @@ Current workflow:
 
 1. *SWOT_over_PACE_maps*: Plot PACE chl-a and phytoplankton assemblages (generated from run_moana_cryocloud or on local machine) with SWOT streamlines overlain.
 2. *compute_vorticity_strain*: Plot PACE chl-a and phytoplankton assemblage ratios in vorticity-strain space. Please interpret with care... SWOT velocities are preliminary, vorticity and strain are two levels of separation away from SLA...
-3. *slices_through_eddy*: Take 1D slices through eddy of interest and plot data along those 'slices.' Plot phyto assemblages, SLA, chl-a, etc. 
+3. *slices_through_eddy*: Take 1D slices through eddy of interest and plot data along those 'slices.' Plot phyto assemblages, SLA, chl-a, etc.
+
+*SWOT and MODIS SST*
+1. *SWOT_SST*: Plot MODIS sea surface temperature (SST) scenes with SWOT streamlines overlain. Also create MODIS SST monthly climatologies. 
    
 **Times series**
 
