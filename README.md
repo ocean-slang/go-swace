@@ -14,6 +14,7 @@ Current workflow:
 1. *SWOT_velocities_maps*: Plot SWOT data, calculate geostrophic velocities, and compare to coarse geostrophic velocities from OSCAR and sea level anomaly from CMEMS.
 2. *eddy_track_visualizations*: Plot time series of eddy amplitude and area from AVISO eddy trajectories. Plot eddy trajectory over its lifespan. Select some SWOT overpasses to plot at different points of the eddy's life.
 3. *plot_all_SWOT_dates*: Plot all SWOT images (SLA + quick velocities overlain) for all dates of SWOT overpass over the eddy. Generate animation from pngs.
+4. *SWOT_cyclogeostrophy_vorticity_strain_jaxsparrow.ipynb* Using MEOM's group jaxsparrow and widetrax to calculate cyclogeostrophic velocities, vorticity, and strain. 
    
 *PACE*
 
@@ -24,7 +25,7 @@ Current workflow:
 *SWOT and PACE*
 
 1. *SWOT_over_PACE_maps*: Plot PACE chl-a and phytoplankton assemblages (generated from run_moana_cryocloud or on local machine) with SWOT streamlines overlain.
-2. *compute_vorticity_strain*: Plot PACE chl-a and phytoplankton assemblage ratios in vorticity-strain space. Please interpret with care... SWOT velocities are preliminary, vorticity and strain are two levels of separation away from SLA...
+2. *compute_vorticity_strain*: Plot PACE chl-a and phytoplankton assemblage ratios in vorticity-strain space. Please interpret with care... SWOT velocities are preliminary, vorticity and strain are two levels of separation away from SLA... Vorticity and strain calculations have been updated in *SWOT_cyclogeostrophy_vorticity_strain_jaxsparrow.ipynb* (see SWOT #4). It is in progress, that PACE variables are being explored in vort-strain space, with vort and strain found by new methodology.
 3. *slices_through_eddy*: Take 1D slices through eddy of interest and plot data along those 'slices.' Plot phyto assemblages, SLA, chl-a, etc.
 
 *SWOT and MODIS SST*
